@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@types/react-scroll": "^1.8.10"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles": "^3.8.1"
+  }
+}
