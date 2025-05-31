@@ -126,16 +126,18 @@ const Hero: React.FC = () => {
                   }}
                 />
                 {/* Temporarily use img tag instead of Avatar for testing */}
-                <Avatar
+                <img
                   src={process.env.PUBLIC_URL + '/abhishek.jpg'}
                   alt="Abhishek Kumar"
-                  sx={{
-                    width: { xs: 140, md: 180 },
-                    height: { xs: 140, md: 180 },
-                    boxShadow: 6,
+                  style={{
+                    width: '180px',
+                    height: '180px',
+                    borderRadius: '50%',
+                    boxShadow: '0 4px 32px 0 #00eaff44',
                     border: `4px solid ${theme.palette.primary.main}`,
                     position: 'relative',
                     zIndex: 1,
+                    objectFit: 'cover',
                   }}
                 />
               </Box>
